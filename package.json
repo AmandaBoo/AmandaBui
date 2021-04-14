@@ -1,0 +1,19 @@
+{
+  "name": "godhunter_calc",
+  "version": "1.0.0",
+  "description": "Godhunter Calculator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmandaBoo/AmandaBui.git"
+  },
+  "author": "Amanda Bui",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AmandaBoo/AmandaBui/issues"
+  },
+  "homepage": "https://github.com/AmandaBoo/AmandaBui#readme"
+}

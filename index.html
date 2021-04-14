@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+    <title>Godhunter Calculator</title>
+    <!-- <meta name="description" content="Are you a Godhunter who could use a little bit of help?"> -->
+    <meta name="author" content="Eressea">
+    <!-- <meta name="theme-color" content="#def2d9"> -->
+  </head>
+
+  <body>
+    <div class="intro-text">
+      <p>Are you a Godhunter who could use a little bit of help calculating your bonks?</p>
+    </div>
+<!-- make one visible or not depending on a radio button you click or something like that
+ -->
+    <div id="godhunters-main-div">
+      <div id="eressea-main-div">
+        <label class="godhunter-name-label">Eressea</label>
+        <div class="main-buttons">
+            <input type="button" id="e_heal" value="Heal" onclick="displayEresseaHealCards()">
+            <input type="button" id="e_attack" value="Attack" onclick="createEresseaAttackCards()">
+        </div>
+      </div>
+
+      <!-- clicking on heal will create new cards for each heal - generate this dynamically -->
+      <div id="gullsea-main-div">
+        <label class="godhunter-name-label">Gullsea</label>
+        <div class="main-buttons">
+            <input type="button" id="g_attack" value="Attack">
+        </div>
+      </div>
+    </div>
+
+    <div id="eressea-heal-div">
+    </div>
+
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
