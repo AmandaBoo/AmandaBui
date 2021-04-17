@@ -1,1 +1,1 @@
-# amandabui.github.io
+# Amanda Bui's Projects
