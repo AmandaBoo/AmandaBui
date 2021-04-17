@@ -5,6 +5,7 @@
 ### DND Assist
 
 - Installation Guide
+  - Clone the respository with the following url -> https://github.com/AmandaBoo/Projects.git
   - Download [Node](https://nodejs.org/en/)
   - Install ```http-server``` by typing ``npm install -g http-server`` into your command line
   - Navigate into the repository directory where ``index.html`` is stored
