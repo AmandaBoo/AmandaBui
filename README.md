@@ -2,7 +2,7 @@
 
 ## Projects
 
-### DND Assist
+### DND Assist (please ignore this for now k thx)
 
 - Installation Guide
   - Clone the respository with the following url -> https://github.com/AmandaBoo/Projects.git
