@@ -3,19 +3,33 @@
 
   <head>
     <meta charset="utf-8">
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
     <title>Cleric Assist</title>
     <meta name="author" content="Eressea">
+		<link rel="stylesheet" href="../../css/style.css">
   </head>
+
   <body>
-    <!-- make it a table -->
-    <table id="mainTable">
-      <tr>
-        <td> Name </td>
-        <td> HP </td>
-        <td> AC </td>
-      </tr>
-    </table>
-    <script src="js/scripts.js"></script>
+    <div id="table-div">
+      <table id="player-table">
+        <tr id="header-row">
+          <td> Name </td>
+          <td> HP </td>
+          <td> AC </td>
+        </tr>
+      </table>
+    </div>
+
+    <div id="new-character-div">
+      <input type = 'text' id='name-field' placeholder='Name'>
+      <input type = 'number' id='hp-field' placeholder='HP'>
+      <input type = 'number' id='ac-field' placeholder='AC'>
+      <input type = 'button' id='submit-char-button' value='+' onclick='submitNewCharacter()'>
+    </div>
+
+    <div class="add-button">
+      <input type="button" id='add-char-button' value="+" onclick="addNewCharacter()">
+    </div>
+
+    <script src="../../js/clericAssistJs.js"></script>
   </body>
 </html>
