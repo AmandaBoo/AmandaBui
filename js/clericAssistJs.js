@@ -40,7 +40,8 @@ function submitNewCharacter() {
     alert("ENTER IN VALUES K THX");
   }
 }
-
+// TODO : CLICKING ENTER WHILE IN EDIT MODE SHOULD TURN OFF EDIT MODE NOT ALLOW FOR "ENTER"
+// NEW CHARACTER
 function insertData(row, data) {
   var td = document.createElement("td");
   td = row.insertCell(-1);
@@ -91,3 +92,5 @@ window.addEventListener("keydown", function (event) {
       return;
   }
 });
+
+console.log("testing");
