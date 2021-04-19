@@ -1,6 +1,6 @@
 # Project : Boba
 
-### Setup (please ignore this for now k thx)
+### Setup (only need to do this if you're working with the jsons)
 
 - Installation Guide
   - Clone the respository with the following url -> https://github.com/AmandaBoo/ProjectBoba.git
