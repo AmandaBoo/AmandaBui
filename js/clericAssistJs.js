@@ -5,7 +5,7 @@ var nameField = document.getElementById('name-field');
 var submitCharButton = document.getElementById("submit-char-button");
 
 // GLOBALS
-var characterFields = ["name-field", "hp-field", "ac-field"];
+var characterFields = ["name-field", "max-hp-field", "cur-hp-field"];
 var addCharButtonClicked = false;
 var editValues = [];
 
@@ -24,7 +24,6 @@ function addNewCharacter() {
 // FUNCTIONS FOR SUBMITTING
 function submitNewCharacter() {
   isValid = true;
-  console.log("entering");
   characterFields.forEach(id => {
     if (document.getElementById(id).value == '') {
       isValid = false;
@@ -76,8 +75,9 @@ window.addEventListener("keydown", function (event) {
   switch (event.key) {
     case "Enter":
       if (newCharDiv.style.display == 'block' && document.activeElement !== submitCharButton) {
-        console.log('here');
         submitNewCharacter();
+      } else if (document.activeElement.contentEditable == 'true') {
+        document.activeElement.blur();
       } else if (newCharDiv.style.display !== 'block') {
         addNewCharacter();
       }
@@ -86,6 +86,8 @@ window.addEventListener("keydown", function (event) {
     case "Escape":
       if (newCharDiv.style.display === 'block') {
         clearFields();
+      } else if (document.activeElement.contentEditable == 'true') {
+        document.activeElement.blur();
       }
       break;
     default:
