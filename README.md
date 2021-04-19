@@ -1,8 +1,6 @@
-# Amanda Bui's Projects
+# Project : Boba
 
-## Projects
-
-### DND Assist (please ignore this for now k thx)
+### Setup (please ignore this for now k thx)
 
 - Installation Guide
   - Clone the respository with the following url -> https://github.com/AmandaBoo/ProjectBoba.git
