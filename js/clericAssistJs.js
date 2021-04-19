@@ -94,5 +94,3 @@ window.addEventListener("keydown", function (event) {
       return;
   }
 });
-
-console.log("testing");
