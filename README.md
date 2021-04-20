@@ -4,44 +4,7 @@ _Helpful modules for DND all held within a cute lil' dashboard_
 
 **Note : Do whatever tf you think is good for the project :3**
 
-## Project Boards
 
-- [Project Board Link](https://github.com/AmandaBoo/ProjectBoba/projects)
-- Each module will have its own Project Board with the following structure  [Backlog | To Do | In Progress | Done]
-  - Backlog : New ideas that may or may not be converted into issues 
-  - To Do : Issues to be taken up 
-  - In Progress : Issues that are currently being worked 
-  - Done : Issues that have been completed
-- Feel free to toss ideas into the backlog as you come up with them 
-
-## Issues
-
-*I prefer the word 'stories' but whatever*
-
-### Opening up an issue
-
-1. Navigate to the [Project Board](https://github.com/AmandaBoo/ProjectBoba/projects) and find the backlog card that you want to convert into an issue
-2. Convert it into an issue and move to the 'To Do' column
-3. Navigate to the [Issues page](https://github.com/AmandaBoo/ProjectBoba/issues) and open up the issue you just converted
-4. Assign a developer to the issue if this is known ahead of time
-5. Add in the following labels :
-   - Project label (same name as the Project Board it came from)
-   - Type of issue (bug, feature, etc)
-6. Use the following template when writing descriptions
-
-```
-Issue : Description of the problem 
-Acceptance Criteria : 
-- Short description of features that need to be implemented
-```
-
-```
-**Exm using the template**
-Issue : I want to be able to delete characters in the table
-Acceptance Criteria : 
-- A button labeled "Delete" is seen on the right side of each row in the table
-- When clicked, the button remoes the row from the table
-```
 
 ## Developer's Guide
 
@@ -72,6 +35,49 @@ Acceptance Criteria :
    - Examples : 
      - ``git commit -m "#11 : Added save functionality"``
      - ``git commit -m "close #11 : Added save functionality"``
+
+
+
+## Project Boards
+
+- [Project Board Link](https://github.com/AmandaBoo/ProjectBoba/projects)
+- Each module will have its own Project Board with the following structure  [Backlog | To Do | In Progress | Done]
+  - Backlog : New ideas that may or may not be converted into issues 
+  - To Do : Issues to be taken up 
+  - In Progress : Issues that are currently being worked 
+  - Done : Issues that have been completed
+- *Feel free to toss ideas into the backlog as you come up with them* 
+
+
+
+## Issues
+
+*I prefer the word 'stories' but whatever*
+
+### Opening up an issue
+
+1. Navigate to the [Project Board](https://github.com/AmandaBoo/ProjectBoba/projects) and find the backlog card that you want to convert into an issue
+2. Convert it into an issue and move to the 'To Do' column
+3. Navigate to the [Issues page](https://github.com/AmandaBoo/ProjectBoba/issues) and open up the issue you just converted
+4. Assign a developer to the issue if this is known ahead of time
+5. Add in the following labels :
+   - Project label (same name as the Project Board it came from)
+   - Type of issue (bug, feature, etc)
+6. Use the following template when writing descriptions
+
+```
+Issue : Description of the problem 
+Acceptance Criteria : 
+- Short description of features that need to be implemented
+```
+
+```
+**Exm using the template**
+Issue : I want to be able to delete characters in the table
+Acceptance Criteria : 
+- A button labeled "Delete" is seen on the right side of each row in the table
+- When clicked, the button remoes the row from the table
+```
 
 
 
