@@ -79,7 +79,9 @@ Acceptance Criteria :
 - When clicked, the button remoes the row from the table
 ```
 
-
+### Helpful links
+How to deploy a React Project to Github Pages : https://create-react-app.dev/docs/deployment/#github-pages
+Run -> ```npm install --save-dev @babel/core @babel/preset-env``` if you get the babel not installed error 
 
 
 
