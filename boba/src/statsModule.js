@@ -15,8 +15,8 @@ class StatsSheet extends React.Component {
 }
 
 class StatsEntryFields extends React.Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
     this.state = {
       strength: '',
       dexterity: '',
@@ -85,5 +85,4 @@ class StatsEntryFields extends React.Component {
     );
   }
 }
-
 export default StatsSheet;

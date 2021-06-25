@@ -4,8 +4,8 @@ import './index.css';
 import StatsSheet from "./statsModule"
 
 class ModuleSheet extends React.Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
     this.state = {
       shStats: true
     };
