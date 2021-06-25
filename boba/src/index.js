@@ -12,10 +12,8 @@ class ModuleSheet extends React.Component {
     this.hideComponent = this.hideComponent.bind(this);
   }
 
-  hideComponent(varname) {
-    console.log(varname);
-
-    switch (varname) {
+  hideComponent(varName) {
+    switch (varName) {
       case "shStats":
         this.setState({ shStats: !this.state.shStats });
         break;

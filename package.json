@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/AmandaBoo/AmandaBui/issues"
   },
-  "homepage": "https://github.com/AmandaBoo/AmandaBui#readme"
+  "homepage": "https://github.com/AmandaBoo/AmandaBui#readme",
+  "dependencies": {
+    "gh-pages": "^3.2.3"
+  }
 }
