@@ -32,12 +32,16 @@ class StatsEntryFields extends React.Component {
   handleSubmit(event) {
     event.preventDefault();
     var cookie = {
-      "strength":this.state.strength,
-      "dexterity":this.state.dexterity,
-      "constitution":this.state.constitution,
-      "intelligence":this.state.intelligence,
-      "wisdom":this.state.wisdom,
-      "charisma":this.state.charisma
+        "abilityScores" : [
+          {
+            "strength":this.state.strength,
+            "dexterity":this.state.dexterity,
+            "constitution":this.state.constitution,
+            "intelligence":this.state.intelligence,
+            "wisdom":this.state.wisdom,
+            "charisma":this.state.charisma
+          }
+      ]
     }
     document.cookie = "abilityScores=" + JSON.stringify(cookie);
     console.log(JSON.stringify(cookie));
